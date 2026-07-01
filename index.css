@@ -1,0 +1,59 @@
+body {
+    border: 10px, solid, yellow;
+    width: 550px;
+    height: 729px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+#container {
+
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+#input-container {
+    border: 2px, solid, white;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    margin: 0px auto;
+}
+
+#input-num {
+    margin: auto;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+button {
+    width: 500px;
+    height: 108px;
+    margin-top: 30px;
+}
+
+#main {
+    background-color: #6943FF;
+    margin: 0px;
+    width: 550px;
+    height: 285px;
+    color: white;
+}
+
+#bottom123 {
+    
+}
