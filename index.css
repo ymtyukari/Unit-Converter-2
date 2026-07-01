@@ -1,5 +1,10 @@
 body {
-    border: 10px, solid, yellow;
+    margin: 0;
+    padding: 0;
+    background-color: #020617;
+}
+
+#container {
     width: 550px;
     height: 729px;
     margin: 100px auto;
@@ -7,43 +12,64 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-#container {
-
-}
-
-h1 {
+label {
     margin: 0px;
     padding-top: 33px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     font-size: 28px;
     font-weight: 800;
+}
 
+h2 {
+    color: #CCC1FF;
+    font-weight: 600;
+    size: 20px;
+}
+
+p {
+    color: #FFFFFF;
+    font-weight: 400;
+    size: 14px;
 }
 
 #input-container {
-    border: 2px, solid, white;
-    border-radius: 5px;
-    width: 117px;
-    height: 83px;
-    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 #input-num {
-    margin: auto;
+    margin: 0 auto 30px auto;
+    border: 2px, solid,#B295FF;
+    border-radius: 5px;
+    width: 110px;
+    height: 83px;
+    background-color: #6943FF;
+    color: #FFFFFF;
     font-size: 60px;
     font-weight: 800;
+    text-align: center;
 }
 
 #convert-btn {
     width: 117px;
     height: 42px;
     border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    color: #3D3D3D;
 }
 
-button {
+a {
+    display: inline-block;
     width: 500px;
     height: 108px;
     margin-top: 30px;
+    background-color: #273549;
+    border: none;
 }
 
 #main {
@@ -51,9 +77,10 @@ button {
     margin: 0px;
     width: 550px;
     height: 285px;
-    color: white;
+    color: #FFFFFF;
 }
 
 #bottom123 {
-    
+    background-color: #1F2937;
+    height: 444px;
 }
